@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <title>Inicio</title>
+    <title>Historia</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Gluten:wght@300&display=swap');    .cuerpos{
         float: left;
@@ -20,7 +20,7 @@
         font-family: 'Gluten', cursive;
     }
     .informacion{
-        margin-top: 22pc;
+        margin-top: 40pc;
         width: 100%;
         height: 400px;
         background-image:url("images/fondo.png");
@@ -33,6 +33,17 @@
         margin-left: 7%;
         font-family: 'Gluten', cursive;
         color: white;
+        text-align: center;
+    }
+    .titulo{
+        font-family: 'Gluten', cursive;
+        text-align: center;
+    }
+    .texto, .imagen, .mision, .vision{
+        width: 50%;
+        height: 200px;
+        float: left;
+        font-family: 'Gluten', cursive;
         text-align: center;
     }
     </style>
@@ -80,41 +91,38 @@
                 </div>
             </nav>
         </div>
-        <div id="carrusel" style="margin-top: 20px; margin-left: 10%; margin-right: 10%">
-        <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active" data-interval="2000">
-                        <img src="images/pandequeso.jpg " class="d-block w-100" width="80%" height="300px">
-                    </div>
-                    <div class="carousel-item" data-interval="2000">
-                        <img src="images/pastel.jpg" class="d-block w-100" width="80%" height="300px">
-                    </div>
-                    <div class="carousel-item" data-interval="2000">
-                        <img src="images/dulce.jpg" class="d-block w-100" width="80%" height="300px">
-                    </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
+        <div class="titulo">
+            <h1>Historia</h1>
+        </div>
+        <div class="cuerpo">
+            <div class="texto">
+                <h3>
+                Iniciamos en el año 2020 con pandequesos santarrosano, en medio de la pandemia COVID-19, 
+                por la oportunidad que se dio de un local desocupado y muy bien ubicado, poco a poco todo se fue dando, 
+                comenzamos comprando algunas máquinas, y posicionando las ventas en el local, tiendas y supermercados.
+                <br>
+                Expandiendonos hasta tener gran variedad en nuestros productos
+                </h3>
+            </div>
+            <div class="imagen">
+                <img src="images/imagen1.jpg" width="600px", height="300px">
             </div>
         </div>
-        <div id="bannerbienvenido" style="margin-left:10%; margin-right:10%;margin-top:20px">
-            <img src="images/bienvenido.png" style="width:100%; height: 250px">
-        </div>
-        <div class="cuerpo" style="margin-top: 20px;margin-left:50px">
-            <div class="cuerpos" style="margin-left:10%">
-                <iframe src="https://giphy.com/embed/q7GFqSX6m0tMPF8msF" width="480" height="300" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        <div class="cuerpo" style="margin-top: 350px;">
+            <div class="mision">
+                <h2>Misión</h2>
+                <h3>
+                En Panaderia MyE nos dedicamos a la elaboración y distribución de productos de panadería,
+                 comprometidos con nuestros clientes en brindarles productos de gran calidad y sabor, con un servicio amable y oportuno.
+                </h3>
             </div>
-            <div class="cuerpos" style="width: 480px;height: 300px">
-                <h3>La empresa se llama Pasteleria MyE, venta y preparación de almojábanas, pandequesos, todo tipo de pan, pastelería y otros
-                    servicios para colegios, escuelas, banquetes, de consumo personal y demás.
-                    Ubicados en el Sena de pedregal, con altos niveles de satisfacción.</h3>
-            </div>
+            <divc class="vision">
+                <h2>Visión</h2>
+                <h3>
+                Nuestro propósito en el 2023 es ser una empresa posicionada en el mercado, caracterizada por brindar productos de calidad e innovación, 
+                ofreciendo una experiencia excepcional de producto y servicio al cliente.
+                </h3>
+            </divc>
         </div>
         <div class="informacion">
             <div class="redes">
