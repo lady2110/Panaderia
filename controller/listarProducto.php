@@ -38,7 +38,7 @@ while ($row = mysqli_fetch_row($objPro)) {
                                 <p class="card-text">
                                     Precio $: <?php echo $row[2]; ?>
                                 </p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <a href="#" class="btn btn-primary">Comprar ahora!!!</a>
                             </div>
                         </div>
                     </div>
