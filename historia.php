@@ -82,7 +82,7 @@
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="galeria.html">Galeria</a>
+                            <a class="nav-link"  href="./controller//listarProducto.php">Galeria</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="seccion.html">Inicie Sección</a>

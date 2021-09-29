@@ -12,6 +12,44 @@
 </head>
 
 <body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+                <a href="index.php" style="margin-left: 400px;">
+                    <img src="/images/home.png" width="50px" height="50px"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/index.php">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/historia.php">Nuestra empresa</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="nuestraempresa.html" id="navbarDropdown"
+                                role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Servicios
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="rostro.html">Panaderia</a>
+                                <a class="dropdown-item" href="ojos.html">Pasteleria</a>
+                                <a class="dropdown-item" href="labios.html">Postres</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./controller//listarProducto.php">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="seccion.html">Inicie Sección</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
     <div class="container mt-3">
         <div class="row">
             
@@ -32,7 +70,7 @@ while ($row = mysqli_fetch_row($objPro)) {
                      
                      <div class="col-lg-4  col-md-6  col-sm-12">
                         <div class="card">
-                            <img src="/Panaderia/images/<?php echo $row[4]; ?>" class="card-img-top" alt="Card image cap">
+                            <img src="/images/<?php echo $row[4]; ?>" class="card-img-top" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title"><?php echo $row[1]; ?></h5>
                                 <p class="card-text">
