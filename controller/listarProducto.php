@@ -70,7 +70,7 @@ while ($row = mysqli_fetch_row($objPro)) {
                      
                      <div class="col-lg-4  col-md-6  col-sm-12">
                         <div class="card">
-                            <img src="/images/<?php echo $row[4]; ?>" class="card-img-top" alt="Card image cap">
+                            <img src="/Panaderia/images/<?php echo $row[4]; ?>" class="card-img-top" alt="Card image cap">
                             <div class="card-body">
                                 <h5 class="card-title"><?php echo $row[1]; ?></h5>
                                 <p class="card-text">
