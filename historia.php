@@ -19,7 +19,7 @@ include 'cabecera/cabecera.php';
         text-align: center;
     }
     </style>
-        <div id="contenedor"  >
+        <div id="contenedor" >
          <div class="titulo">
             <h1>Historia</h1>
          </div>
@@ -37,7 +37,7 @@ include 'cabecera/cabecera.php';
                 <img src="images/imagen1.jpg" width="600px", height="300px">
             </div>
          </div>
-         <div class="cuerpo" style="margin-top: 400px;border-style: solid; height: 300px;">
+         <div class="cuerpo" style="margin-top: 400px; height: 300px;">
             <div class="mision">
                 <h2>Misión</h2>
                 <h3>
@@ -53,9 +53,10 @@ include 'cabecera/cabecera.php';
                 </h3>
             </div>
          </div>
+         </div>
          <div>
          <?php
 include 'cabecera/pie.php';
 ?>
          </div>
-         </div>
+       

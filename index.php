@@ -14,7 +14,7 @@ font-family: 'Gluten', cursive;
 }
 </style>
     <title>Inicio</title>
-        <div id="contenedor" >
+        <div id="contenedor">
             <div id="carrusel" style="margin-top: 20px; margin-left: 10%; margin-right: 10%">
                 <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
@@ -51,6 +51,7 @@ font-family: 'Gluten', cursive;
                         Ubicados en el Sena de pedregal, con altos niveles de satisfacción.</h3>
                 </div>
             </div>
+         </div>
             <div><?php
             include 'cabecera/pie.php';
             ?></div>
